@@ -36,7 +36,7 @@ Bundle 'mattn/gist-vim'
 Bundle 'Yggdroot/indentLine'
 
 " A JavaScript indent that actually works!
-Bundle 'lukaszb/vim-web-indent'
+Bundle 'pangloss/vim-javascript'
 
 " Set title on X window
 set title
