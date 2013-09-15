@@ -23,12 +23,21 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'Conque-Shell'
 Bundle 'ervandew/supertab'
 Bundle 'kchmck/vim-coffee-script'
+
+" My copy of snipmate
 Bundle 'ghostbar/snipmate.vim'
 Bundle 'juvenn/mustache.vim'
 Bundle 'kien/ctrlp.vim'
+
+" The only markdown syntax that actually works!
 Bundle 'plasticboy/vim-markdown'
+
+" Vim + Gist = Win!
 Bundle 'mattn/gist-vim'
 Bundle 'Yggdroot/indentLine'
+
+" A JavaScript indent that actually works!
+Bundle 'lukaszb/vim-web-indent'
 
 " Set title on X window
 set title
