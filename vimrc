@@ -32,6 +32,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'plasticboy/vim-markdown'
 
 " Vim + Gist = Win!
+Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
 Bundle 'Yggdroot/indentLine'
 
