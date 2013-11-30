@@ -1,4 +1,4 @@
-" ~/.vimrc from Jose Luis Rivas <ghostbar@debian.org>
+" ~/.vimrc from Jose Luis Rivas <me@ghostbar.co>
 
 " Basic setup
 syn on " syntax on always, I like colors.
@@ -116,7 +116,7 @@ set noswapfile
 " set listchars=tab:>.,trail:.,extends:#,nbsp:.
 
 " Mapping NERD_Tree toggle command to F3
-map <F3> :NERDTreeToggle<CR>
+" map <F3> :NERDTreeToggle<CR>
 
 " Mapping xclip clipboard support
 " F6 for yank
@@ -154,9 +154,6 @@ set laststatus=2
 set fillchars+=stl:\ ,stlnc:\
 set encoding=utf-8
 "let g:Powerline_symbols = 'fancy'
-
-" Tagbar
-nmap <F8> :TagbarToggle<CR>
 
 " background for vim-indent-guides
 "set background=light
