@@ -8,6 +8,8 @@ set nocp " This way things like modelines works out-of-box and more stuff
 
 filetype off
 
+set backspace=indent,eol,start
+
 " Vundle stuff
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
