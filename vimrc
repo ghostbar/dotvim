@@ -23,7 +23,6 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-git'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Conque-Shell'
-Bundle 'kchmck/vim-coffee-script'
 
 " My copy of snipmate
 Bundle 'ghostbar/snipmate.vim'
