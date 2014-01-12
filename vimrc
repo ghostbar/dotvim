@@ -54,6 +54,9 @@ set smartindent " Automatically inserts indentation in some cases
 " show ruler
 set ruler
 
+" show line numbers
+set number
+
 " Search related stuff
 " use incremental search
 set incsearch
