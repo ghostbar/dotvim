@@ -26,6 +26,7 @@ Bundle 'Conque-Shell'
 
 " My copy of snipmate
 Bundle 'ghostbar/snipmate.vim'
+
 Bundle 'juvenn/mustache.vim'
 Bundle 'kien/ctrlp.vim'
 
@@ -39,6 +40,9 @@ Bundle 'Yggdroot/indentLine'
 
 " A JavaScript indent that actually works!
 Bundle 'pangloss/vim-javascript'
+
+" Quick `git status` after saving changes
+Bundle 'mhinz/vim-signify'
 
 " Set title on X window
 set title
