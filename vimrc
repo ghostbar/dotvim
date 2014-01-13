@@ -1,7 +1,5 @@
 " ~/.vimrc from Jose Luis Rivas <me@ghostbar.co>
 
-filetype off
-
 source ~/.vim/rc/vundle.vimrc
 
 source ~/.vim/rc/basics.vimrc
@@ -10,32 +8,7 @@ source ~/.vim/rc/search.vimrc
 
 source ~/.vim/rc/tabs.vimrc
 
-" Load identation rules according to filetype
-filetype plugin indent on
-
-" CoffeeScript should use spaces instead of tabs
-augroup coffee
-	autocmd BufNewFile,BufRead *.coffee	set expandtab
-augroup END
-augroup js
-	autocmd BufNewFile,BufRead *.js,*.javascript set expandtab
-augroup END
-
-augroup py
-  autocmd BufNewFile,BufRead *.py set expandtab sw=4 ts=4 sts=4
-augroup END
-
-" Markdown should use spaces instead of tabs and a textwidth of 80 characters
-augroup mkd
-	autocmd BufNewFile,BufRead *.mkd,*.md,*.mkdn,*.markdown		set expandtab
-augroup END
-
-" TeX should use spaces instead of tabs and a textwidth of 80 characters
-augroup tex
-	autocmd BufNewFile,BufRead *.tex 	set expandtab
-augroup END
-
-filetype plugin on
+source ~/.vim/rc/filetype.vimrc
 
 " Copying some rules from /etc/vimrc that are commented
 set showcmd        " Show (partial) command in status line.
