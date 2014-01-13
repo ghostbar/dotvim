@@ -14,6 +14,9 @@ source ~/.vim/rc/filetype.vimrc
 
 source ~/.vim/rc/colorscheme.vimrc
 
+" Hacks
+source ~/.vim/rc/silver-searcher.vimrc
+
 """""""""""""""""""""""""""""""""""
 " Plugins start here
 " 
