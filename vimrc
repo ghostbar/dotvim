@@ -10,8 +10,7 @@ source ~/.vim/rc/tabs.vimrc
 
 source ~/.vim/rc/filetype.vimrc
 
-" Mapping NERD_Tree toggle command to F3
-" map <F3> :NERDTreeToggle<CR>
+source ~/.vim/rc/nerdtree.vimrc
 
 " Mapping xclip clipboard support
 " F6 for yank
