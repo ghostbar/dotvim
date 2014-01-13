@@ -49,13 +49,7 @@ Bundle 'scrooloose/nerdtree.git'
 
 source ~/.vim/rc/basics.vimrc
 
-" Search related stuff
-" use incremental search
-set incsearch
-set ignorecase     " Do case insensitive matching
-set smartcase      " Do smart case matching
-set hlsearch       " Highlight search terms
-
+source ~/.vim/rc/search.vimrc
 
 " Use 2-spaces instead of tabs
 set expandtab
