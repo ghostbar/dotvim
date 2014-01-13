@@ -32,3 +32,8 @@ set mouse=a       " Enable mouse usage (all modes)
 " No backup! No `.swp` files anymore!
 set nobackup
 set noswapfile
+
+" Making vim work as should while using tmux with $TERM="screen"
+if &term == "screen"
+  set term=xterm
+endif

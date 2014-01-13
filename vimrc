@@ -22,11 +22,6 @@ vmap <C-c> y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
 "map <F7> mz:-1r !xclip -o -sel clip<CR>`z
 map <F7> :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
 
-" Making vim work as should while using tmux with $TERM="screen"
-if &term == "screen"
-	set term=xterm
-endif
-
 " CtrlP configs
 " ctrlp will open the new file in the same window, overriding the default
 " behavior of opening a vertical split
