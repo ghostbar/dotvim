@@ -10,17 +10,6 @@ source ~/.vim/rc/tabs.vimrc
 
 source ~/.vim/rc/filetype.vimrc
 
-" Copying some rules from /etc/vimrc that are commented
-set showcmd        " Show (partial) command in status line.
-set showmatch      " Show matching brackets.
-set autowrite      " Automatically save before commands like :next and :make
-set hidden         " Hide buffers when they are abandoned
-set mouse=a        " Enable mouse usage (all modes)
-
-" No backup! No `.swp` files!
-set nobackup
-set noswapfile
-
 " Highlight whitespaces: set out tab characters, trailing whitespace and
 " invisible spaces visually; and additionally use the `#` sign at the end of
 " lines to mark lines that extend off-screen

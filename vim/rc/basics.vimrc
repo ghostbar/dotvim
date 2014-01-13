@@ -22,3 +22,13 @@ set number
 
 " While pasting: activate this mode so autoindent doesn't screw it all
 set pastetoggle=<F2>
+
+set showcmd       " Show (partial) command in status line.
+set showmatch     " Show matching brackets
+set autowrite     " Automatically save before commands like :next and :make
+set hidden        " Hide buffers when they are abandoned
+set mouse=a       " Enable mouse usage (all modes)
+
+" No backup! No `.swp` files anymore!
+set nobackup
+set noswapfile
