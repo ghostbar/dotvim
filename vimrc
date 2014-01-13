@@ -53,9 +53,6 @@ source ~/.vim/rc/search.vimrc
 
 source ~/.vim/rc/tabs.vimrc
 
-" Insert tabs on the start of a line according to shiftwidth, not tabstop
-set smarttab
-
 " When I'm pasting activate this mode so autoindent doesn't smash all.
 set pastetoggle=<F2>
 
