@@ -1,14 +1,6 @@
 " ~/.vimrc from Jose Luis Rivas <me@ghostbar.co>
 
-" Basic setup
-syn on " syntax on always, I like colors.
-
-" No vi-compatible mode
-set nocp " This way things like modelines works out-of-box and more stuff
-
 filetype off
-
-set backspace=indent,eol,start
 
 " Vundle stuff
 set rtp+=~/.vim/bundle/vundle/
