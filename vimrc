@@ -18,12 +18,7 @@ source ~/.vim/rc/nerdtree.vimrc
 
 source ~/.vim/rc/ctrlp.vimrc
 
-" Enabling Powerline for VIM
-set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
-set laststatus=2
-set fillchars+=stl:\ ,stlnc:\
-set encoding=utf-8
-"let g:Powerline_symbols = 'fancy'
+source ~/.vim/rc/powerline.vimrc
 
 " background for vim-indent-guides
 "set background=light
