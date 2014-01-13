@@ -4,6 +4,8 @@ source ~/.vim/rc/vundle.vimrc
 
 source ~/.vim/rc/basics.vimrc
 
+source ~/.vim/rc/copy-n-paste.vimrc
+
 source ~/.vim/rc/search.vimrc
 
 source ~/.vim/rc/tabs.vimrc
@@ -15,14 +17,6 @@ source ~/.vim/rc/colorscheme.vimrc
 source ~/.vim/rc/nerdtree.vimrc
 
 source ~/.vim/rc/ctrlp.vimrc
-
-" Mapping xclip clipboard support
-" F6 for yank
-" vmap <F6> :!xclip -f -sel clip<CR>
-vmap <C-c> y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
-" F7 for put
-"map <F7> mz:-1r !xclip -o -sel clip<CR>`z
-map <F7> :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
 
 " Enabling Powerline for VIM
 set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
