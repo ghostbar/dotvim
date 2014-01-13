@@ -44,6 +44,9 @@ Bundle 'pangloss/vim-javascript'
 " Quick `git status` after saving changes
 Bundle 'mhinz/vim-signify'
 
+" NERDtree
+Bundle 'scrooloose/nerdtree.git'
+
 " Set title on X window
 set title
 
