@@ -14,6 +14,11 @@ source ~/.vim/rc/filetype.vimrc
 
 source ~/.vim/rc/colorscheme.vimrc
 
+"""""""""""""""""""""""""""""""""""
+" Plugins start here
+" 
+"""""""""""""""""""""""""""""""""""
+
 source ~/.vim/rc/nerdtree.vimrc
 
 source ~/.vim/rc/ctrlp.vimrc
