@@ -10,6 +10,8 @@ source ~/.vim/rc/tabs.vimrc
 
 source ~/.vim/rc/filetype.vimrc
 
+source ~/.vim/rc/colorscheme.vimrc
+
 source ~/.vim/rc/nerdtree.vimrc
 
 " Mapping xclip clipboard support
@@ -24,12 +26,6 @@ map <F7> :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
 if &term == "screen"
 	set term=xterm
 endif
-
-" Set solarized colorscheme
-syntax enable
-let g:solarized_termtrans = 1
-set t_Co=256
-colorscheme solarized
 
 " CtrlP configs
 " ctrlp will open the new file in the same window, overriding the default
