@@ -19,3 +19,6 @@ set ruler
 
 " show line numbers
 set number
+
+" While pasting: activate this mode so autoindent doesn't screw it all
+set pastetoggle=<F2>

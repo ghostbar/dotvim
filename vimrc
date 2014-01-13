@@ -10,9 +10,6 @@ source ~/.vim/rc/search.vimrc
 
 source ~/.vim/rc/tabs.vimrc
 
-" When I'm pasting activate this mode so autoindent doesn't smash all.
-set pastetoggle=<F2>
-
 " Load identation rules according to filetype
 filetype plugin indent on
 
