@@ -33,6 +33,7 @@ Plugins managed by Vundle
 + `Yggdroot/indentLine`
 + `pangloss/vim-javascript`
 + `mhinz/vim-signify`
++ `scrooloose/nerdtree.git`
 
 License
 -------
