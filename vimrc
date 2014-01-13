@@ -14,6 +14,8 @@ source ~/.vim/rc/colorscheme.vimrc
 
 source ~/.vim/rc/nerdtree.vimrc
 
+source ~/.vim/rc/ctrlp.vimrc
+
 " Mapping xclip clipboard support
 " F6 for yank
 " vmap <F6> :!xclip -f -sel clip<CR>
@@ -21,17 +23,6 @@ vmap <C-c> y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
 " F7 for put
 "map <F7> mz:-1r !xclip -o -sel clip<CR>`z
 map <F7> :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
-
-" CtrlP configs
-" ctrlp will open the new file in the same window, overriding the default
-" behavior of opening a vertical split
-let g:ctrlp_open_new_file = 'r'
-
-" What should CtrlP ignore?
-" files that should not be editable like .so, swp, .zip, .exe and .dll
-" /node_modules/ dirs should be avoided, cause they're not supposed to be
-" edited via vim, but via npm.
-set wildignore+=*.so,*.swp,*.zip,*/node_modules/*,*.exe,*.dll
 
 " Enabling Powerline for VIM
 set rtp+=/usr/local/lib/python2.7/site-packages/powerline/bindings/vim
