@@ -10,12 +10,6 @@ source ~/.vim/rc/tabs.vimrc
 
 source ~/.vim/rc/filetype.vimrc
 
-" Highlight whitespaces: set out tab characters, trailing whitespace and
-" invisible spaces visually; and additionally use the `#` sign at the end of
-" lines to mark lines that extend off-screen
-" set list
-" set listchars=tab:>.,trail:.,extends:#,nbsp:.
-
 " Mapping NERD_Tree toggle command to F3
 " map <F3> :NERDTreeToggle<CR>
 
