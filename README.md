@@ -3,8 +3,6 @@ dotvim
 
 Plain simple vim-configuration files. It uses Vundle to handle the plugins.
 
-The directory is dirty, it has old configurations that I probably don't use anymore and will clean along the way.
-
 Requirements
 ------------
 + Git
