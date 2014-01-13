@@ -51,11 +51,7 @@ source ~/.vim/rc/basics.vimrc
 
 source ~/.vim/rc/search.vimrc
 
-" Use 2-spaces instead of tabs
-set expandtab
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+source ~/.vim/rc/tabs.vimrc
 
 " Insert tabs on the start of a line according to shiftwidth, not tabstop
 set smarttab
