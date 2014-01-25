@@ -37,3 +37,6 @@ Bundle 'mhinz/vim-signify'
 
 " NERDtree
 Bundle 'scrooloose/nerdtree.git'
+
+" Syntastic
+Bundle 'scrooloose/syntastic'
