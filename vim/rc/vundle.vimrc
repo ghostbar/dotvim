@@ -40,3 +40,9 @@ Bundle 'scrooloose/nerdtree.git'
 
 " Syntastic
 Bundle 'scrooloose/syntastic'
+
+" Jade syntax
+Bundle "digitaltoad/vim-jade.git"
+
+" Stylus syntax
+Bundle "wavded/vim-stylus.git"
