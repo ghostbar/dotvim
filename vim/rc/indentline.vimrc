@@ -6,4 +6,4 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven   guibg=yellow   ctermbg=255
 let g:indent_guides_enable_on_vim_startup = 1
 
 let g:indentLine_enabled = 1
-let g:indentLine_char = '|'
+let g:indentLine_char = '┆'
