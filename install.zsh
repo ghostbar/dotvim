@@ -1,16 +1,48 @@
-#!/bin/sh
+#!/usr/bin/env zsh
 
-[ -e ~/.vimrc ] && mv ~/.vimrc ~/.vimrc.bak
-[ -e ~/.vim.bak ] && rm -rf ~/.vim.bak
-[ -e ~/.vim ] && mv ~/.vim ~/.vim.bak
+version='
+Version: 0.2.0
+© 2013-2014, Jose Luis Rivas <me@ghostbar.co>
+Licensed under the MIT terms.
+';
 
-ln -s $PWD/vimrc ~/.vimrc
-ln -s $PWD/vim ~/.vim
+print $version;
 
-echo "Symlinked! Now will clone vundle"
-git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+function checkFile {
+  if [[ -e $HOME/.$1 && -e $PWD/$2 ]]; then
+    mv $HOME/.$1 $HOME/$1.bak;
+  fi
+}
 
-echo "Now let's gonna install them!"
-vim +BundleInstall +qall
+function lnFile {
+  if [[ -e $PWD/$2 ]]; then
+    print "Linking" $PWD/$2 "to" $HOME/.$1;
+    ln -s $PWD/$2 $HOME/.$1;
+  fi
+}
 
-echo "Done. Enjoy!"
+function checkDir {
+  if [[ -d $HOME/.$1.bak ]]; then
+    rm -rf $HOME/.$1.bak;
+  fi
+
+  if [[ -d $HOME/.$1 && -d $PWD/$2 ]]; then
+    mv $HOME/.$1 $HOME/.$1.bak;
+  fi
+}
+
+function install {
+  print 'Will link vim config files';
+  checkFile vimrc vimrc;
+  lnFile vimrc vimrc;
+  checkDir vim vim;
+  lnFile vim vim;
+
+  print 'Now will clone vundle on ~/.vim/bundle/vundle';
+  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
+  print 'Will install all vundle modules';
+  vim +BundleInstall +qall
+}
+
+install;
