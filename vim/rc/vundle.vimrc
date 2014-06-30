@@ -1,48 +1,55 @@
+set nocompatible
+filetype off
+
 " Vundle stuff
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " let Vundle manage Vundle
 " required !!!!!!
-Bundle 'gmarik/Vundle.vim'
+Plugin 'gmarik/Vundle.vim'
 
 " Now declare the bundles!!
 
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-git'
-Bundle 'tpope/vim-fugitive'
-Bundle 'Conque-Shell'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-git'
+Plugin 'tpope/vim-fugitive'
+Plugin 'Conque-Shell'
 
 " My for of snipmate
-Bundle 'ghostbar/snipmate.vim'
+Plugin 'ghostbar/snipmate.vim'
 
-Bundle 'juvenn/mustache.vim'
-Bundle 'kien/ctrlp.vim'
+Plugin 'juvenn/mustache.vim'
+Plugin 'kien/ctrlp.vim'
 
 " The only markdown syntax that actually works!
-Bundle 'plasticboy/vim-markdown'
+"Plugin 'plasticboy/vim-markdown'
+Plugin 'Markdown'
 
 " Vim + Gist === WIN!
-Bundle 'mattn/webapi-vim'
-Bundle 'mattn/gist-vim'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
 
 " I don't like loosing my time figuring out indentations
-Bundle 'Yggdroot/indentLine'
+Plugin 'Yggdroot/indentLine'
 
 " A JavaScript indent that actually works!
-Bundle 'pangloss/vim-javascript'
+Plugin 'pangloss/vim-javascript'
 
 " Quick `git status` after saving changes
-Bundle 'mhinz/vim-signify'
+Plugin 'mhinz/vim-signify'
 
 " NERDtree
-Bundle 'scrooloose/nerdtree.git'
+Plugin 'scrooloose/nerdtree.git'
 
 " Syntastic
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 
 " Jade syntax
-Bundle "digitaltoad/vim-jade.git"
+Plugin 'digitaltoad/vim-jade.git'
 
 " Stylus syntax
-Bundle "wavded/vim-stylus.git"
+Plugin 'wavded/vim-stylus.git'
+
+call vundle#end()
+filetype plugin indent on
