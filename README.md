@@ -5,12 +5,13 @@ Plain simple vim-configuration files. It uses Vundle to handle the plugins.
 
 Requirements
 ------------
-+ Git
++ `git`
++ `zsh`
 
 Install
 -------
 
-    ./install.sh
+    zsh ./install.zsh
 
 This will move the current configuration to `~/.vimrc.bak` and `~/.vim.bak`, clone vundle from GitHub and install everything with `vim +BundleInstall +qall`.
 
@@ -34,6 +35,22 @@ Plugins managed by Vundle
 + `pangloss/vim-javascript`
 + `mhinz/vim-signify`
 + `scrooloose/nerdtree.git`
+
+Config-files structure
+----------------------
+
++ `vim/rc/basics.vimrc`: basic vim configs, including syntax, numbers, etc.
++ `vim/rc/colorscheme.vimrc`: colorscheme configs
++ `vim/rc/copy-n-paste.vimrc`: copy and paste support (for both: Mac and Linux)
++ `vim/rc/ctrlp.vimrc`: ctrlp plugin configs
++ `vim/rc/filetype.vimrc`: filetype-related configs
++ `vim/rc/indentline.vimrc`: indentLine plugin configs
++ `vim/rc/nerdtree.vimrc`: nerdTree plugin configs
++ `vim/rc/powerline.vimrc`: powerline-related configs
++ `vim/rc/search.vimrc`: search-related configs
++ `vim/rc/silver-searcher.vimrc`: if `ag` is installed, then better-faster search
++ `vim/rc/tabs.vimrc`: tabs-spaces-related configs
++ `vim/rc/vundle.vimrc`: vundle-related configs (including modules to «bundle»).
 
 License
 -------
