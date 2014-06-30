@@ -38,8 +38,8 @@ function install {
   checkDir vim vim;
   lnFile vim vim;
 
-  print 'Now will clone vundle on ~/.vim/bundle/vundle';
-  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+  print 'Now will clone vundle on ~/.vim/bundle/Vundle.vim';
+  git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
   print 'Will install all vundle modules';
   vim +PluginInstall +qall
