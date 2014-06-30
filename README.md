@@ -37,4 +37,8 @@ Plugins managed by Vundle
 
 License
 -------
-Do whatever you want with it, no copyright no nothing. I just made the `install.sh` and the `vimrc` is a mashup of several other ones.
+Written from 2008 to 2014 by Jose Luis Rivas <me@ghostbar.co> 
+
+To the extent possible under law, the author(s) have dedicated all copyright and related and neighboring rights to this software to the public domain worldwide. This software is distributed without any warranty. 
+
+You should have received a copy of the CC0 Public Domain Dedication along with this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>. 
