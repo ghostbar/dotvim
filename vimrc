@@ -1,31 +1,31 @@
 " ~/.vimrc from Jose Luis Rivas <me@ghostbar.co>
 
-source ~/.vim/rc/vundle.vimrc
+source ~/.vim/rc/vundle.vim
 
-source ~/.vim/rc/basics.vimrc
+source ~/.vim/rc/basics.vim
 
-source ~/.vim/rc/copy-n-paste.vimrc
+source ~/.vim/rc/copy-n-paste.vim
 
-source ~/.vim/rc/search.vimrc
+source ~/.vim/rc/search.vim
 
-source ~/.vim/rc/tabs.vimrc
+source ~/.vim/rc/tabs.vim
 
-source ~/.vim/rc/filetype.vimrc
+source ~/.vim/rc/filetype.vim
 
-source ~/.vim/rc/colorscheme.vimrc
+source ~/.vim/rc/colorscheme.vim
 
 " Hacks
-source ~/.vim/rc/silver-searcher.vimrc
+source ~/.vim/rc/silver-searcher.vim
 
 """""""""""""""""""""""""""""""""""
 " Plugins start here
 " 
 """""""""""""""""""""""""""""""""""
 
-source ~/.vim/rc/nerdtree.vimrc
+source ~/.vim/rc/nerdtree.vim
 
-source ~/.vim/rc/ctrlp.vimrc
+source ~/.vim/rc/ctrlp.vim
 
-source ~/.vim/rc/indentline.vimrc
+source ~/.vim/rc/indentline.vim
 
-source ~/.vim/rc/powerline.vimrc
+source ~/.vim/rc/powerline.vim
