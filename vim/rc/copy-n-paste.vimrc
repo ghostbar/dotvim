@@ -8,7 +8,13 @@ if has("unix")
   endif
   if s:uname =~ "Linux"
     " On Linux
-    vmap <C-c> y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
-    map <C-v> :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
+    " Without X server it will just use a temporal file
+    if system("echo $DISPLAY") =~ ""
+      vmap <C-c> y: call system("> /tmp/theClipboardWithoutX", getreg("\""))<CR>
+      map <C-v> :call setreg("\"", system("< /tmp/theClipboardWithoutX"))<CR>p
+    else
+      vmap <C-c> y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
+      map <C-v> :call setreg("\"",system("xclip -o -selection clipboard"))<CR>p
+    endif
   endif
 endif
