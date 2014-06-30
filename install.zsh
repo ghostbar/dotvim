@@ -42,7 +42,7 @@ function install {
   git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 
   print 'Will install all vundle modules';
-  vim +BundleInstall +qall
+  vim +PluginInstall +qall
 }
 
 install;
