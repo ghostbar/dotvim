@@ -10,7 +10,7 @@ print $version;
 
 function checkFile {
   if [[ -e $HOME/.$1 && -e $PWD/$2 ]]; then
-    mv $HOME/.$1 $HOME/$1.bak;
+    mv $HOME/.$1 $HOME/.$1.bak;
   fi
 }
 
