@@ -17,7 +17,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Conque-Shell'
 
 " My for of snipmate
-Plugin 'ghostbar/snipmate.vim'
+"Plugin 'ghostbar/snipmate.vim'
 
 Plugin 'juvenn/mustache.vim'
 Plugin 'kien/ctrlp.vim'
@@ -55,6 +55,11 @@ Plugin 'wavded/vim-stylus.git'
 Plugin 'Shougo/neocomplete.vim'
 
 Plugin 'jaxbot/github-issues.vim'
+
+Plugin 'Shougo/neosnippet'
+Plugin 'Shougo/neosnippet-snippets'
+
+Plugin 'ghostbar/vim-snippets'
 
 call vundle#end()
 filetype plugin indent on
