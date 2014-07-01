@@ -51,7 +51,10 @@ Plugin 'digitaltoad/vim-jade.git'
 " Stylus syntax
 Plugin 'wavded/vim-stylus.git'
 
+" Neocomplete fucking rules
 Plugin 'Shougo/neocomplete.vim'
+
+Plugin 'jaxbot/github-issues.vim'
 
 call vundle#end()
 filetype plugin indent on
