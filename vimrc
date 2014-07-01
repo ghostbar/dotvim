@@ -33,3 +33,5 @@ source ~/.vim/rc/powerline.vim
 source ~/.vim/rc/neocomplete.vim
 
 source ~/.vim/rc/neosnippet.vim
+
+source ~/.vim/rc/vim-json.vim

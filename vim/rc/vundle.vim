@@ -61,5 +61,7 @@ Plugin 'Shougo/neosnippet-snippets'
 
 Plugin 'ghostbar/vim-snippets'
 
+Plugin 'elzr/vim-json'
+
 call vundle#end()
 filetype plugin indent on
