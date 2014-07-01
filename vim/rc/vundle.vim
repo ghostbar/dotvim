@@ -51,5 +51,7 @@ Plugin 'digitaltoad/vim-jade.git'
 " Stylus syntax
 Plugin 'wavded/vim-stylus.git'
 
+Plugin 'Shougo/neocomplete.vim'
+
 call vundle#end()
 filetype plugin indent on

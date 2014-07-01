@@ -29,3 +29,5 @@ source ~/.vim/rc/ctrlp.vim
 source ~/.vim/rc/indentline.vim
 
 source ~/.vim/rc/powerline.vim
+
+source ~/.vim/rc/neocomplete.vim
