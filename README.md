@@ -3,6 +3,10 @@ dotvim
 
 Plain simple vim-configuration files. It uses Vundle to handle the plugins.
 
+This is how ends up:
+
+![Screnshot](https://i.cloudup.com/5469XungCr.png)
+
 Requirements
 ------------
 + `git`
