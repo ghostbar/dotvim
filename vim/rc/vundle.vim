@@ -54,7 +54,8 @@ Plugin 'wavded/vim-stylus.git'
 " Neocomplete fucking rules
 Plugin 'Shougo/neocomplete.vim'
 
-Plugin 'jaxbot/github-issues.vim'
+" Github-issues are cool but too slow, depends on the network :-/
+" Plugin 'jaxbot/github-issues.vim'
 
 Plugin 'Shougo/neosnippet'
 Plugin 'Shougo/neosnippet-snippets'
