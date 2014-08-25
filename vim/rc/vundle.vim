@@ -62,6 +62,8 @@ Plugin 'Shougo/neosnippet-snippets'
 
 Plugin 'ghostbar/vim-snippets'
 
+Plugin 'embear/vim-localvimrc'
+
 Plugin 'elzr/vim-json'
 
 call vundle#end()
