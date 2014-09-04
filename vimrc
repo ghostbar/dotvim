@@ -35,3 +35,5 @@ source ~/.vim/rc/neocomplete.vim
 source ~/.vim/rc/neosnippet.vim
 
 source ~/.vim/rc/vim-json.vim
+
+source ~/.vim/rc/lvimrc.vim
