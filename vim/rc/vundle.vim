@@ -64,5 +64,7 @@ Plugin 'ghostbar/vim-snippets'
 
 Plugin 'embear/vim-localvimrc'
 
+Plugin 'mxw/vim-jsx'
+
 call vundle#end()
 filetype plugin indent on
