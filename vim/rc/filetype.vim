@@ -31,11 +31,4 @@ augroup tex
   autocmd BufNewFile,BufRead *.tex set expandtab
 augroup END
 
-augroup json
-  autocmd!
-  autocmd BufNewFile,BufRead *.json set expandtab ft=json
-  "autocmd InsertEnter *.json setlocal conceallevel=2 concealcursor=
-  "autocmd InsertLeave *.json setlocal conceallevel=2 concealcursor=inc
-augroup END
-
 filetype plugin on
