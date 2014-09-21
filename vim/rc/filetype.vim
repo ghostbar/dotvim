@@ -31,4 +31,12 @@ augroup tex
   autocmd BufNewFile,BufRead *.tex set expandtab
 augroup END
 
+augroup docker
+  autocmd BufNewFile,BufRead Dockerfile* set ft=dockerfile
+augroup END
+
+augroup vagrant
+  autocmd BufNewFile,BufRead Vagrantfile* set ft=ruby
+augroup END
+
 filetype plugin on
