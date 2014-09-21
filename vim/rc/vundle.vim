@@ -66,5 +66,7 @@ Plugin 'embear/vim-localvimrc'
 
 Plugin 'mxw/vim-jsx'
 
+Plugin 'ekalinin/Dockerfile.vim'
+
 call vundle#end()
 filetype plugin indent on
