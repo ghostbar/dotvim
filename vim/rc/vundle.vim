@@ -16,9 +16,6 @@ Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Conque-Shell'
 
-" My for of snipmate
-"Plugin 'ghostbar/snipmate.vim'
-
 Plugin 'juvenn/mustache.vim'
 Plugin 'kien/ctrlp.vim'
 
