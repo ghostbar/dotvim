@@ -17,6 +17,10 @@ augroup js
   autocmd BufNewFile,BufRead *.js,*.javascript set expandtab
 augroup END
 
+augroup json
+  autocmd BufNewFile,BufRead *.json set conceallevel=0
+augroup END
+
 augroup py
   autocmd BufNewFile,BufRead *.py set expandtab sw=4 ts=4 sts=4
 augroup END
