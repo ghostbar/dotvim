@@ -11,7 +11,6 @@ Plugin 'gmarik/Vundle.vim'
 
 " Now declare the bundles!!
 
-Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-git'
 Plugin 'tpope/vim-fugitive'
 Plugin 'Conque-Shell'
@@ -20,7 +19,6 @@ Plugin 'juvenn/mustache.vim'
 Plugin 'kien/ctrlp.vim'
 
 " The only markdown syntax that actually works!
-"Plugin 'plasticboy/vim-markdown'
 Plugin 'Markdown'
 
 " Vim + Gist === WIN!
@@ -42,12 +40,6 @@ Plugin 'scrooloose/nerdtree.git'
 " Syntastic
 Plugin 'scrooloose/syntastic'
 
-" Jade syntax
-Plugin 'digitaltoad/vim-jade.git'
-
-" Stylus syntax
-Plugin 'wavded/vim-stylus.git'
-
 " Neocomplete fucking rules
 Plugin 'Shougo/neocomplete.vim'
 
@@ -60,8 +52,6 @@ Plugin 'Shougo/neosnippet-snippets'
 Plugin 'ghostbar/vim-snippets'
 
 Plugin 'embear/vim-localvimrc'
-
-Plugin 'mxw/vim-jsx'
 
 Plugin 'ekalinin/Dockerfile.vim'
 
