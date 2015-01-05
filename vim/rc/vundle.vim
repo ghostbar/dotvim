@@ -55,5 +55,7 @@ Plugin 'embear/vim-localvimrc'
 
 Plugin 'ekalinin/Dockerfile.vim'
 
+Plugin 'stephpy/vim-yaml'
+
 call vundle#end()
 filetype plugin indent on
