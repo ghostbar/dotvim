@@ -34,4 +34,6 @@ source ~/.vim/rc/neocomplete.vim
 
 source ~/.vim/rc/neosnippet.vim
 
+source ~/.vim/rc/syntastic.vim
+
 source ~/.vim/rc/lvimrc.vim
