@@ -57,5 +57,8 @@ Plugin 'ekalinin/Dockerfile.vim'
 
 Plugin 'stephpy/vim-yaml'
 
+" Golang support
+Plugin 'fatih/vim-go'
+
 call vundle#end()
 filetype plugin indent on

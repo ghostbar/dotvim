@@ -37,3 +37,5 @@ source ~/.vim/rc/neosnippet.vim
 source ~/.vim/rc/syntastic.vim
 
 source ~/.vim/rc/lvimrc.vim
+
+source ~/.vim/rc/vim-go.vim
