@@ -60,5 +60,11 @@ Plugin 'stephpy/vim-yaml'
 " Golang support
 Plugin 'fatih/vim-go'
 
+" Tagbar
+Plugin 'majutsushi/tagbar'
+
+" Go Explorer for golang docs
+Plugin 'garyburd/go-explorer'
+
 call vundle#end()
 filetype plugin indent on
