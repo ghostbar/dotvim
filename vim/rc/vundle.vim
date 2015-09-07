@@ -66,5 +66,8 @@ Plugin 'majutsushi/tagbar'
 " Go Explorer for golang docs
 Plugin 'garyburd/go-explorer'
 
+" JSX support
+Plugin 'mxw/vim-jsx'
+
 call vundle#end()
 filetype plugin indent on
