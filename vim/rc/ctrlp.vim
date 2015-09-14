@@ -7,4 +7,4 @@ let g:ctrlp_open_new_file = 'r'
 " files non-editable like .so, .sow, .zip, .exe and .dll
 " /node_modules/ dirs should be avoided, cause they're not supposed to be
 " part of a project nor edited with vim directly but via npm.
-set wildignore+=*.so,*.swp,*.zip,*/node_modules/*,*.exe,*.dll
+set wildignore+=*.so,*.swp,*.zip,node_modules/*,*.exe,*.dll
