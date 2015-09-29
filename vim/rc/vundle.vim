@@ -55,6 +55,7 @@ Plugin 'embear/vim-localvimrc'
 
 Plugin 'ekalinin/Dockerfile.vim'
 
+" This yaml syntax module is faster than core
 Plugin 'stephpy/vim-yaml'
 
 " Golang support
@@ -68,6 +69,9 @@ Plugin 'garyburd/go-explorer'
 
 " JSX support
 Plugin 'mxw/vim-jsx'
+
+" saltstack sls syntax support
+Plugin 'saltstack/salt-vim'
 
 call vundle#end()
 filetype plugin indent on
