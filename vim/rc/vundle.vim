@@ -73,5 +73,10 @@ Plugin 'mxw/vim-jsx'
 " saltstack sls syntax support
 Plugin 'saltstack/salt-vim'
 
+" colorschemes
+Plugin 'evgenyzinoviev/vim-vendetta'
+Plugin 'ratazzi/blackboard.vim'
+Plugin 'x1596357/vim'
+
 call vundle#end()
 filetype plugin indent on
