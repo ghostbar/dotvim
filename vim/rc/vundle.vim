@@ -79,5 +79,8 @@ Plugin 'ratazzi/blackboard.vim'
 Plugin 'x1596357/vim'
 Plugin 'junegunn/seoul256.vim'
 
+" easy align plugin
+Plugin 'junegunn/vim-easy-align'
+
 call vundle#end()
 filetype plugin indent on
