@@ -1,8 +1,7 @@
 syntax enable
 set t_Co=256
+let g:seoul256_background = 238
 colorscheme seoul256
-" colorscheme seoul256-light
-set background=dark
 
 " seoul256 (dark):
 " "   Range:   233 (darkest) ~ 239 (lightest)
