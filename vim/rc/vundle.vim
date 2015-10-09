@@ -77,6 +77,7 @@ Plugin 'saltstack/salt-vim'
 Plugin 'evgenyzinoviev/vim-vendetta'
 Plugin 'ratazzi/blackboard.vim'
 Plugin 'x1596357/vim'
+Plugin 'junegunn/seoul256.vim'
 
 call vundle#end()
 filetype plugin indent on
