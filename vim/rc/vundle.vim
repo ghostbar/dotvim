@@ -16,7 +16,9 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Conque-Shell'
 
 Plugin 'juvenn/mustache.vim'
-Plugin 'kien/ctrlp.vim'
+
+" Using fork of 'kien/ctrlp.vim', since that one is unmaintained since 2013
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " The only markdown syntax that actually works!
 Plugin 'Markdown'
