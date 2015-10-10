@@ -82,5 +82,8 @@ Plugin 'junegunn/seoul256.vim'
 " easy align plugin
 Plugin 'junegunn/vim-easy-align'
 
+" rad statusline
+Plugin 'itchyny/lightline.vim'
+
 call vundle#end()
 filetype plugin indent on

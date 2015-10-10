@@ -39,3 +39,5 @@ source ~/.vim/rc/lvimrc.vim
 source ~/.vim/rc/vim-go.vim
 
 source ~/.vim/rc/tagbar.vim
+
+source ~/.vim/rc/lightline.vim
