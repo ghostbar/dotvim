@@ -87,5 +87,8 @@ Plugin 'junegunn/vim-easy-align'
 " rad statusline
 Plugin 'itchyny/lightline.vim'
 
+" rust support
+Plugin 'rust-lang/rust.vim'
+
 call vundle#end()
 filetype plugin indent on
