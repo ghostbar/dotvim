@@ -79,6 +79,7 @@ Plugin 'saltstack/salt-vim'
 Plugin 'evgenyzinoviev/vim-vendetta'
 Plugin 'ratazzi/blackboard.vim'
 Plugin 'junegunn/seoul256.vim'
+Plugin 'altercation/vim-colors-solarized'
 
 " easy align plugin
 Plugin 'junegunn/vim-easy-align'

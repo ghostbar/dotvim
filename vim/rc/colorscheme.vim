@@ -1,7 +1,16 @@
+syntax on
 syntax enable
+set term=xterm-256color
 set t_Co=256
-let g:seoul256_background = 238
-colorscheme blackboard
+set background=dark
+let g:solarized_termcolors=256
+let g:solarized_termtrans=1
+colorscheme solarized
+
+"colorscheme blackboard
+
+"let g:seoul256_background = 238
+"colorscheme blackboard
 " colorscheme seoul256
 
 " seoul256 (dark):
