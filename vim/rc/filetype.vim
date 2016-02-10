@@ -27,7 +27,7 @@ augroup END
 
 " Markdown should use spaces instead of tabs
 augroup mkd
-  autocmd BufNewFile,BufRead *.mkd,*.md,*.mkdn,*.markdown set expandtab
+  autocmd BufNewFile,BufRead *.mkd,*.md,*.mkdn,*.markdown set expandtab tw=80
 augroup END
 
 " TeX should use spaces instead of tabs
