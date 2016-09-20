@@ -43,4 +43,8 @@ augroup vagrant
   autocmd BufNewFile,BufRead Vagrantfile* set ft=ruby
 augroup END
 
+augroup golang
+  autocmd BufNewFile,BufRead *.go set noexpandtab sw=4 ts=4 sts=4
+augroup END
+
 filetype plugin on
