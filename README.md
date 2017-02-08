@@ -10,12 +10,15 @@ This is how ends up:
 Requirements
 ------------
 + `git`
-+ `zsh`
 
 Install
 -------
 
     zsh ./install.zsh
+
+If you don't have `zsh`, just use this `bash` script.
+
+    bash ./install.sh
 
 This will move the current configuration to `~/.vimrc.bak` and `~/.vim.bak`, clone vundle from GitHub and install everything with `vim +BundleInstall +qall`.
 
