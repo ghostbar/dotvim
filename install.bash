@@ -28,7 +28,7 @@ checkFile() {
 
 lnFile() {
   if [ -e "$PWD/$2" ]; then
-    print "Linking" "$PWD/$2" "to" "$HOME/.$1"
+    echo "Linking" "$PWD/$2" "to" "$HOME/.$1"
     ln -s "$PWD/$2" "$HOME/.$1"
   fi
 }
