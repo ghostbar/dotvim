@@ -2,7 +2,7 @@ syntax on
 syntax enable
 set term=xterm-256color
 set t_Co=256
-set background=dark
+set background=light
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 colorscheme solarized
