@@ -93,5 +93,8 @@ Plugin 'rust-lang/rust.vim'
 " distraction free writing in vim!
 Plugin 'junegunn/goyo.vim'
 
+" fzf for vim
+Plugin 'junegunn/fzf.vim'
+
 call vundle#end()
 filetype plugin indent on
