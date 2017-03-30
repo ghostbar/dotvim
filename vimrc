@@ -43,3 +43,5 @@ source ~/.vim/rc/tagbar.vim
 source ~/.vim/rc/lightline.vim
 
 source ~/.vim/rc/vim-javascript.vim
+
+source ~/.vim/rc/fzf.vim
