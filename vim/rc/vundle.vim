@@ -90,5 +90,8 @@ Plugin 'itchyny/lightline.vim'
 " rust support
 Plugin 'rust-lang/rust.vim'
 
+" distraction free writing in vim!
+Plugin 'junegunn/goyo.vim'
+
 call vundle#end()
 filetype plugin indent on
