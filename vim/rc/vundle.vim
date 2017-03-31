@@ -96,5 +96,8 @@ Plugin 'junegunn/goyo.vim'
 " fzf for vim
 Plugin 'junegunn/fzf.vim'
 
+" Plugin for generating Tables of Content in markdown
+Plugin 'mzlogin/vim-markdown-toc'
+
 call vundle#end()
 filetype plugin indent on
