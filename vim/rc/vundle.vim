@@ -99,5 +99,8 @@ Plugin 'junegunn/fzf.vim'
 " Plugin for generating Tables of Content in markdown
 Plugin 'mzlogin/vim-markdown-toc'
 
+" Nord from https://arcticicestudio.github.io/nord/introduction/port-projects.html
+Plugin 'arcticicestudio/nord-vim'
+
 call vundle#end()
 filetype plugin indent on
