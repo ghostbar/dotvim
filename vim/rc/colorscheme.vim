@@ -2,10 +2,9 @@ syntax on
 syntax enable
 set term=xterm-256color
 set t_Co=256
-set background=light
-let g:solarized_termcolors=256
-let g:solarized_termtrans=1
-colorscheme solarized
+colorscheme nord
+let g:nord_comment_brightness = 12
+let g:nord_italic = 1
 
 "colorscheme blackboard
 
