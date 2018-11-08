@@ -4,7 +4,7 @@ source ~/.vim/rc/vundle.vim
 
 source ~/.vim/rc/basics.vim
 
-source ~/.vim/rc/copy-n-paste.vim
+source ~/.vim/rc/clipboard.vim
 
 source ~/.vim/rc/search.vim
 
